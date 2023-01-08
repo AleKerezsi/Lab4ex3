@@ -54,7 +54,7 @@ namespace Lab4ex3
             AfiseazaMatrice(m, n, matrix3);
         }
 
-        private static int[,] CalculeazaProdusulPentruDouaMatrici(int m, int q, int n, int[,] matrix1, int[,] matrix2)
+        static int[,] CalculeazaProdusulPentruDouaMatrici(int m, int q, int n, int[,] matrix1, int[,] matrix2)
         {
             int[,] matrix3 = new int[m, q];
             for (int i = 0; i < m; i++)
